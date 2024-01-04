@@ -54,7 +54,7 @@ async def about(client, message):
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "♆ رجوع ♆", callback_data="help"
+                                            "♆ رجوع ♆", callback_data="help")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
