@@ -3,3 +3,4 @@ Pillow
 Pyrogram
 TgCrypto
 aiohttp
+python3
