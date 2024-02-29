@@ -1,1 +1,1 @@
-worker: python3 youtech-bot.py
+worker: python youtech-bot.py
