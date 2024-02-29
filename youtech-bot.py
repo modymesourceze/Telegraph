@@ -15,16 +15,16 @@ async def start(client, message):
    if message.chat.type == 'private':
        await sbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>مرحبًا ، أنا بوت تحويل الصور الي تليجراف ميديا \n يمكنني تحميل الصور أو مقاطع الفيديو إلى تليجراف ميديا. \n تم صناعتي بواسطة ⧛ 𓆩 𝑴𝒐𝒅𝒚 ➫ ⁽𝑆₎𝑻𝒆𝒂𝒎 ࿐ 𝑫 𝒆 𝒗 𝒊 𝒍 𓆪 ⧚ \n اضغط على زر المساعدة لمعرفة المزيد حول كيفية استخدامي</b>""",   
+               text="""<b>مرحبًا ، أنا بوت تحويل الصور الي تليجراف ميديا \n يمكنني تحميل الصور أو مقاطع الفيديو إلى تليجراف ميديا. \n تم صناعتي بواسطة ⧛ 𓆩 𝙳𝙴𝚅 ➫ 『 🇾🇪⃤𝐀𝐁𝐃𝐔𝐋𝐋𝐀𝐇 个 ١9 』 ࿐ 𓆪 ⧚ \n اضغط على زر المساعدة لمعرفة المزيد حول كيفية استخدامي</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "♆ المساعده ♆", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "♆ قناة التحديثات ♆", url="https://t.me/Source_Ze")
+                                            "♆ قناة التحديثات ♆", url="https://t.me/EF_19")
                                     ],[
                                       InlineKeyboardButton(
-                                            "♆ الدعم ♆", url="https://t.me/ZeSupport")
+                                            "♆ الدعم ♆", url="https://t.me/GY_19")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -34,7 +34,7 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await sbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>مساعدة بوت تليجراف ميديا! \n ما عليك سوى إرسال صورة أو مقطع فيديو أقل من حجم ملف 5 ميجابايت ، سأقوم بتحميله إلى تلجراف ميديا. \n ~ @ZeSupport</b>""",
+               text="""<b>مساعدة بوت تليجراف ميديا! \n ما عليك سوى إرسال صورة أو مقطع فيديو أقل من حجم ملف 5 ميجابايت ، سأقوم بتحميله إلى تلجراف ميديا. \n ~ @EF_19</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -50,7 +50,7 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await sbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>حول بوت تليجراف مبديا!</b> \n <b>♞ ⍣ المطور ⍣:</b> <a href="https://t.me/ELHYBA"> ⧛ 𓆩 𝑴𝒐𝒅𝒚 ➫ ⁽𝑆₎𝑻𝒆𝒂𝒎 ࿐ 𝑫 𝒆 𝒗 𝒊 𝒍 𓆪 ⧚</a> \n <b>♞ ⍣ الدعم ⍣:</b> <a href="https://t.me/ZeSupport">ZE Support</a> \n <b>~ @ELHYBA</b>""",
+               text="""<b>حول بوت تليجراف مبديا!</b> \n <b>♞ ⍣ المطور ⍣:</b> <a href="https://t.me/IC_19"> ⧛ 𓆩 『 🇾🇪⃤𝐀𝐁𝐃𝐔𝐋𝐋𝐀𝐇 个 ١9 』 𓆪 ⧚</a> \n <b>♞ ⍣ الدعم ⍣:</b> <a href="https://t.me/GY_19">『 𝙺𝙸𝙽𝙶 』</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -69,7 +69,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("يجب ان يكون حجم الملف اقل من 5 ميجا!") 
     else:
-        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @ZeSupport**',
+        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19**',
             disable_web_page_preview=True,
         )
     finally:
@@ -84,7 +84,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("بجب ان يكون حجم الفيديو اقل من 5 ميجا!") 
     else:
-        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @ZeSupport**',
+        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19**',
             disable_web_page_preview=True,
         )
     finally:
@@ -99,7 +99,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("يجب ان تكون الصوره المتحركه اقل من 5 ميجا!") 
     else:
-        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @ZeSupport**',
+        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19**',
             disable_web_page_preview=True,
         )
     finally:
@@ -119,7 +119,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @ZeSupport
+Join @EF_19
 """
 )
 sbot.run()
