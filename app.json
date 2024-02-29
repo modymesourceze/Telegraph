@@ -1,8 +1,8 @@
 {    
 
-"name": "Telegraph Bot",
+"name": "تلغراف ميديا",
     "description": "A bot that can upload photos and video to telegraph.",
-    "logo": "https://telegra.ph/file/29b1fbd85fe347fd9ceca.jpg",
+    "logo": "https://graph.org/file/2f199ef466e7950dd5e79.jpg",
     "keywords": [
         "Telegraph",
         "Uploader",
@@ -10,8 +10,8 @@
         "YouTech Bots"
     ],
     "website": "https://youtech.live",
-    "repository": "https://github.com/sbatrow/TelegraphBot",
-    "success_url": "https://t.me/UP_UH",
+    "repository": "https://github.com/king-1-9/Telegraph.git",
+    "success_url": "https://t.me/EF_19",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
@@ -19,11 +19,11 @@
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org",
-            "value": "6d99cb2b60a2c519fc1f99bd19565730"
+            "value": "986cb4ba434870a62fe96da3b5f6d411"
         },
         "APP_ID": {
             "description": "Your APP ID from my.telegram.org",
-            "value": "25281175"
+            "value": "20036317"
         }
     },
 	"buildpacks": [
