@@ -6,4 +6,4 @@ class Config(object):
 
     APP_ID = int(os.environ.get("APP_ID", 20036317))
 
-    API_HASH = os.environ.get("API_HASH", "986cb4ba434870a62fe96da3b5f6d411")
+    API_HASH = os.environ.get("API_HASH", "")
