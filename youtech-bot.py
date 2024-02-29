@@ -69,7 +69,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("يجب ان يكون حجم الملف اقل من 5 ميجا!") 
     else:
-        await msg.edit_text(f **تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19** ,
+        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19**' ,
             disable_web_page_preview=True,
         )
     finally:
@@ -84,7 +84,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("بجب ان يكون حجم الفيديو اقل من 5 ميجا!") 
     else:
-        await msg.edit_text(f **تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19** ,
+        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19**' ,
             disable_web_page_preview=True,
         )
     finally:
@@ -99,7 +99,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("يجب ان تكون الصوره المتحركه اقل من 5 ميجا!") 
     else:
-        await msg.edit_text(f **تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19** ,
+        await msg.edit_text(f'**تم التحويل الي تليجراف ميديا!\n\n👉 https://telegra.ph{response[0]}\n\nانضم هنا @EF_19**' ,
             disable_web_page_preview=True,
         )
     finally:
